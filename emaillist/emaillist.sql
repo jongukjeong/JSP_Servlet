@@ -3,10 +3,10 @@ drop sequence seq_emaillist_no;
 
 
 CREATE TABLE emaillist (
-  no	NUMBER,
-  last_name	VARCHAR2(5),
-  first_name	VARCHAR2(10),
-  email VARCHAR(100) not null,
+  no	     NUMBER,
+  last_name	 VARCHAR2(5),
+  first_name VARCHAR2(10),
+  email      VARCHAR(100) not null,
   PRIMARY KEY(no)	
 );
 
